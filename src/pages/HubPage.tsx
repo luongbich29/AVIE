@@ -172,6 +172,14 @@ export default function HubPage() {
       badge: "Thiết Kế",
       badgeColor: "bg-surface-variant text-on-surface-variant",
     },
+    {
+      path: "/gioi-thieu",
+      title: "Giới thiệu thương hiệu",
+      desc: "Câu chuyện thương hiệu AoVie - nét hoài niệm trong dòng chảy hiện đại, cảm hứng từ Nón Lá và Bánh Mì Việt Nam.",
+      icon: "auto_stories",
+      badge: "Mới Thiết Kế",
+      badgeColor: "bg-secondary-fixed text-on-secondary-container font-bold",
+    },
   ];
 
   return (

@@ -27,6 +27,10 @@ body {
   background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuBs94335Tyaa4sDXgAfWN8-2ibKtMW-IQSilaCENzY4tbK07W4H0hVTGFp_DsvPguFNderxBGZz9GuBuD68U6ouh1-l7IZASfacHe8QX1jbvik81D2e71o04fwQ_cMbT3fovOHTynCraSjcMtZbOjQmGAILVf1_p8MxnFHlcdQotajWx56sFY3OwCgWpUeju9oM9FddV7Dw0baBVAUhWWGNfXNG5p2yLEbwy_ejJABkt4epjQzQ2bCcXb3XRxAnnTVO_7CCmALbJQ03);
 }
 
+.asymmetric-border {
+  border-radius: 40px 4px 40px 4px;
+}
+
 .field-lift {
   transition: transform 0.3s ease;
   will-change: transform;
