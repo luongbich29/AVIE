@@ -9,15 +9,15 @@ export default function HubPage() {
       title: "Màn hình Chào (Splash)",
       desc: "Splash screen giới thiệu của AoVie với các hiệu ứng chuyển động logo mượt mà.",
       icon: "movie_filter",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      badge: "Cơ Bản",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
     },
     {
       path: "/trang-chu",
       title: "Trang Chủ E-Commerce",
       desc: "Trang chủ với banner tiệm may Saigon cổ kính, danh mục trượt ngang và lưới sản phẩm.",
       icon: "home",
-      badge: "Mới Thêm",
+      badge: "Cập Nhật",
       badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
     },
     {
@@ -37,75 +37,91 @@ export default function HubPage() {
       badgeColor: "bg-surface-variant text-on-surface-variant",
     },
     {
-      path: "/toi",
-      title: "Trang Cá Nhân (Tôi)",
-      desc: "Màn hình thông tin tài khoản, ví số dư, thẻ loyalty Gold và tùy chọn chính sách.",
-      icon: "person",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
-    },
-    {
-      path: "/vi-tien",
-      title: "Lịch sử giao dịch ví",
-      desc: "Bản sao thẻ ví Terracotta, bộ lọc nạp/thanh toán và danh sách biến động số dư.",
-      icon: "account_balance_wallet",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
-    },
-    {
       path: "/thanh-toan",
-      title: "Phương thức thanh toán",
+      title: "Thông tin Giao hàng & Thanh toán (Checkout)",
+      desc: "Màn hình nhập thông tin người nhận, địa chỉ giao hàng, phương thức vận chuyển và thanh toán tóm tắt đơn hàng.",
+      icon: "shopping_bag",
+      badge: "Mới Thiết Kế",
+      badgeColor: "bg-secondary-fixed text-on-secondary-container font-bold",
+    },
+    {
+      path: "/chon-phuong-thuc-thanh-toan",
+      title: "Chọn Phương thức thanh toán",
       desc: "Lựa chọn phương thức thanh toán an toàn tiện lợi như COD, Momo, ZaloPay, Chuyển khoản.",
       icon: "payments",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
     },
     {
       path: "/bo-loc",
       title: "Bộ lọc sản phẩm",
       desc: "Bộ lọc nâng cao với sắp xếp, khoảng giá, kích thước, màu sắc và danh mục sản phẩm.",
       icon: "tune",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
-    },
-    {
-      path: "/tim-kiem",
-      title: "Tìm kiếm không kết quả",
-      desc: "Thanh tìm kiếm nhập sẵn từ khóa Áo da, thông báo trống và sản phẩm gợi ý.",
-      icon: "search_off",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      badge: "Cơ Bản",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
     },
     {
       path: "/dat-hang-thanh-cong",
       title: "Đặt hàng thành công",
       desc: "Màn hình thông báo giao dịch thành công sang trọng kèm mã đơn hàng tỉ mỉ.",
       icon: "task_alt",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
+    },
+    {
+      path: "/don-hang",
+      title: "Màn hình Đơn hàng - Chờ xác nhận",
+      desc: "Danh sách đơn hàng của bạn được chia theo các tab trạng thái: Tất cả, Chờ xác nhận, Đang giao, Đã giao, Đã hủy.",
+      icon: "receipt_long",
+      badge: "Mới Thiết Kế",
+      badgeColor: "bg-secondary-fixed text-on-secondary-container font-bold",
+    },
+    {
+      path: "/chi-tiet-don-hang",
+      title: "Chi tiết đơn hàng",
+      desc: "Màn hình chi tiết của một đơn hàng, hiển thị trạng thái giao, người nhận, địa chỉ và nút liên hệ hỗ trợ hoặc đánh giá.",
+      icon: "assignment",
+      badge: "Mới Thiết Kế",
+      badgeColor: "bg-secondary-fixed text-on-secondary-container font-bold",
+    },
+    {
+      path: "/danh-gia",
+      title: "Đánh giá sản phẩm",
+      desc: "Màn hình đánh giá sản phẩm đã mua với chọn số sao, viết bình luận và tải ảnh chụp thực tế.",
+      icon: "rate_review",
+      badge: "Mới Thiết Kế",
+      badgeColor: "bg-secondary-fixed text-on-secondary-container font-bold",
     },
     {
       path: "/theo-doi-don-hang",
-      title: "Theo dõi đơn hàng",
+      title: "Theo dõi đơn hàng (Vận chuyển)",
       desc: "Lộ trình giao nhận đơn hàng trực quan, bản đồ Saigon và phím liên hệ gọi Shipper.",
       icon: "local_shipping",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
     },
     {
-      path: "/chinh-sach",
-      title: "Chính sách đổi trả & bảo hành",
-      desc: "Trình bày quy trình đổi hàng 4 bước chi tiết, chính sách bảo hành 6 tháng và FAQs.",
-      icon: "shield",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      path: "/dia-chi-giao-hang",
+      title: "Danh sách Địa chỉ Giao hàng",
+      desc: "Quản lý địa chỉ giao hàng: thêm, xóa, đặt mặc định với form nhập thông tin đầy đủ.",
+      icon: "location_on",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
     },
     {
-      path: "/loi",
-      title: "Trạng thái lỗi kết nối",
-      desc: "Màn hình thông báo mất kết nối mạng tối giản với các nút hành động thử lại trực quan.",
-      icon: "wifi_off",
-      badge: "Mới Thêm",
+      path: "/vi-tien",
+      title: "Lịch sử giao dịch ví",
+      desc: "Bản sao thẻ ví Terracotta, bộ lọc nạp/thanh toán và danh sách biến động số dư.",
+      icon: "account_balance_wallet",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
+    },
+    {
+      path: "/toi",
+      title: "Trang Cá Nhân (Tôi)",
+      desc: "Màn hình thông tin tài khoản, ví số dư, thẻ loyalty Gold và tùy chọn chính sách.",
+      icon: "person",
+      badge: "Cập Nhật",
       badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
     },
     {
@@ -113,32 +129,48 @@ export default function HubPage() {
       title: "Trung tâm Thông báo",
       desc: "Danh sách thông báo đơn hàng, khuyến mãi, hệ thống với bộ lọc tab và trạng thái đã đọc/chưa đọc.",
       icon: "notifications",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
     },
     {
       path: "/chi-tiet-thong-bao",
       title: "Chi tiết Thông báo",
       desc: "Màn hình chi tiết thông báo với timeline giao hàng, coupon khuyến mãi và nút hành động ngữ cảnh.",
       icon: "notification_important",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
     },
     {
       path: "/ho-tro",
       title: "Hỗ trợ Khách hàng",
-      desc: "Giao diện CSKH 3 tab: FAQ accordion, chat trực tuyến và kênh liên hệ (hotline, email, Zalo).",
+      desc: "Giao diện CSKH 3 tab FAQ accordion, chat trực tuyến và kênh liên hệ (hotline, email, Zalo).",
       icon: "headset_mic",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
     },
     {
-      path: "/dia-chi-giao-hang",
-      title: "Danh sách Địa chỉ Giao hàng",
-      desc: "Quản lý địa chỉ giao hàng: thêm, xóa, đặt mặc định với form nhập thông tin đầy đủ.",
-      icon: "location_on",
-      badge: "Mới Thêm",
-      badgeColor: "bg-secondary-fixed text-on-secondary-container font-semibold",
+      path: "/chinh-sach",
+      title: "Chính sách đổi trả & bảo hành",
+      desc: "Trình bày quy trình đổi hàng 4 bước chi tiết, chính sách bảo hành 6 tháng và FAQs.",
+      icon: "shield",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
+    },
+    {
+      path: "/tim-kiem",
+      title: "Tìm kiếm không kết quả",
+      desc: "Thanh tìm kiếm nhập sẵn từ khóa áo da, thông báo trống và sản phẩm gợi ý.",
+      icon: "search_off",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
+    },
+    {
+      path: "/loi",
+      title: "Trạng thái lỗi kết nối",
+      desc: "Màn hình thông báo mất kết nối mạng tối giản với các nút hành động thử lại trực quan.",
+      icon: "wifi_off",
+      badge: "Thiết Kế",
+      badgeColor: "bg-surface-variant text-on-surface-variant",
     },
   ];
 
@@ -155,7 +187,7 @@ export default function HubPage() {
           <img
             alt="AoVie Logo"
             className="h-16 w-auto object-contain hover:scale-105 transition-transform duration-300"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlittWyMBAuOHRrzcRhUDtGmEtOI1eRDXiGm3VqJGucgN_rANfboezkfy2odcIimAHCAxsXU5_2r1OZ7h3fH9OFwQ-7KP0y_sMq3VZfkqxGZ_3T2sC6hNTFiJ0C-Yx7MEemxUeZreDLwC-rGcBYxbB_GL8axzRlJWLimMnreHr7_wUZheWSMxYuOJ5xEjJ6sTsUTpO6ons6NqCBaZSM_xxVrpN7UqEPGxVF7mPXK3Z75IZiUVd5f7uLkOSK2TMGuBq7_Zx5rN7a2C6Upg"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlittWyMBAuOHRrzcRhUDtGmEtOI1eRDXiGm3VqJgucgN_rANfboezkfy2odcIimAHCAxsXU5_2r1OZ7h3fH9OUFwQ-7KP0y_sMq3VZfkqxGZ_3T2sC6hNTFiJ0C-Yx7MEemxUeZreDLwC-rGcBYxbB_GL8axzRlJWLimMnreHr7_wUZheWSMxYuOJ5xEjJ6sTsUTpO6ons6NqCBaZSM_xxVrpN7UqEPGxVF7mPXK3ZN75IZiUVd5f7uLkOSK2TMGuBq7_Zx5rN7a2C6Upg"
           />
           <h1 className="font-display-lg text-primary text-2xl md:text-3xl tracking-widest uppercase mt-2">
             AoVie Workspace
@@ -169,7 +201,7 @@ export default function HubPage() {
       {/* Main Grid */}
       <main className="flex-grow max-w-screen-xl mx-auto w-full px-container-padding py-12">
         <div className="mb-10 text-center">
-          <h2 className="font-headline-md text-headline-md text-primary uppercase tracking-wider mb-2">
+          <h2 className="font-headline-md text-headline-md text-primary uppercase tracking-wide mb-2 font-bold">
             Danh Mục Màn Hình Hệ Thống
           </h2>
           <p className="font-body-md text-body-md text-outline">
@@ -199,7 +231,7 @@ export default function HubPage() {
                   </span>
                 </div>
 
-                <h3 className="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors mb-2">
+                <h3 className="font-headline-md text-headline-md text-primary group-hover:text-secondary transition-colors mb-2 font-bold text-base">
                   {route.title}
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant group-hover:text-on-surface leading-relaxed mb-6">
@@ -207,7 +239,7 @@ export default function HubPage() {
                 </p>
               </div>
 
-              <div className="flex items-center gap-1.5 text-secondary font-label-md text-label-md uppercase tracking-wider font-semibold group-hover:translate-x-1.5 transition-transform duration-300">
+              <div className="flex items-center gap-1.5 text-secondary font-label-md text-label-md uppercase tracking-wider font-bold group-hover:translate-x-1.5 transition-transform duration-300">
                 Truy cập màn hình
                 <span className="material-symbols-outlined text-[16px] font-bold">arrow_forward</span>
               </div>

@@ -14,18 +14,18 @@ export default function HomePage() {
       title: "Áo Thun Unisex - 100% COTTON - “Bánh Mì”",
       price: 225000,
       category: "tops",
-      tag: "MỚI",
+      tag: "Mới",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAaR-tnzfTdhsBTXfnwf2cw6YcgDD3wu797TYNUGqgXScbJ8IlFz0ZAHYmPuRgAeapJNohGfTrMcBYQ4Hi0OBmX4RCrT-beOdEFFz_JuC6RBJ06CddwvDaOAae5RTG26Ulc4FJVoPfpSh-Lw6znusNleXHbRuh14mVEUO5RJkDLW8L1-Ur6L1BJSFxTl4Jf9Bz14c5aHv1DeBkioFXKTr5qU0Do8030mz6IIbXMTgShcqnLSyvDKFJeC4HML26X6HHYliNgNfjOFJvU884",
+        "https://i.ibb.co/PG3p6wTs/6.png",
     },
     {
       id: "p2",
-      title: "Áo Thun Unisex - 100% COTTON - \"Nón Lá\"",
+      title: 'Áo Thun Unisex - 100% COTTON - "Nón Lá"',
       price: 225000,
       category: "tops",
       tag: "",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuABDgWTxPT71xgQThD-WD8FPYd6hPQGAdPGCl3DfvblfBYVQRwGpuZ-LpKil9rWJXdi4o27Fg4mLTidyXL04ObCJ644-PK4wQXc3wzOHPlqAcK5WPRp7NA7_iQft6EOUAIRhGenzWl_ZdCXQcixXookv9UMhWrwQQI1PJvF16gCVZP-MLC0sriYzfRW4FrxE5Z7xMlR6MNMRLjXBqAaMPuEGjCJ9v1oD2bXSg1HKLEeWBe8-GIxW1H9q_1Fg0cJp9WuUFFALkIEk9P55SU",
+        "https://i.ibb.co/zhP9w9gz/10.png",
     },
     {
       id: "p3",
@@ -34,7 +34,7 @@ export default function HomePage() {
       category: "tops",
       tag: "HOT",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBd5KziS4W6bBcwIYKn9RhN2-b9kK5bR6qgZTA1r9EyOQ7NdWxXihj_rG633T3l9v5wOZzzLTfsb5f9jcInJE1wZy5Mzq_xe49qiQ4Fho2sMdPUQgPXkVDV_oecarOBoxD6nYTugPx-tMmQTRTRQUSlAb9SUz-oKktodQJNsbNgSLiiuXpluuitgHGOdogoatU4t81vJr-CsviiMrCX4LIaFW86hMTzEu4AJk2d1ZAV0oRaAFmLZSfv2KgwjI02sE_f3sUmXbFeo8_J",
+        "https://i.ibb.co/hxBR2WM3/3.png",
     },
     {
       id: "p4",
@@ -43,7 +43,7 @@ export default function HomePage() {
       category: "tops",
       tag: "",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCrHJ25Bzae-q75MX57AnlEgwnyAQE_E3mn4FJAde3oWfwfbxXVj2Yx__2mN7KZ6otmWRUXnYp5888FFmNfVBDTJ8DrqDUi0rp_qseMU1BrhjJrHTcO3ShPq_sYxCN0_vrmcvE9hO6OXua2G5YO6_vpuIguU-NP6gKywHJY0VSMnuzx5tLU7wGfo1JFT7-jg7ycijZujy4wLEuNTnsv0rTmLB2SaiaprdoQgQqpegAFZTymW84oRYTCCEw0-2iLV4zJfk1sbRDCpMTB",
+        "https://i.ibb.co/FvnTxYt/11.png",
     },
   ];
 
@@ -66,7 +66,7 @@ export default function HomePage() {
     <div className="bg-background text-on-surface min-h-screen pb-28 font-sans relative antialiased select-none">
       <GrainTexture />
 
-      {/* Top App Bar (Header) */}
+      {/* Top App Bar Header */}
       <header className="fixed top-0 w-full z-50 bg-background border-b border-surface-variant shrink-0">
         <div className="flex justify-between items-center px-container-padding h-16 w-full max-w-screen-xl mx-auto">
           {/* Click to search */}
@@ -80,13 +80,13 @@ export default function HomePage() {
 
           {/* Centered Logo */}
           <img
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwh7yrVOTAGqdin7eM3AB4NddGwgjJXL0uhlU42-nMJtT8DcJWGpytyfED7UrfmS1t9lZdxw-Cqo3LHuoO7XGT5z_H-k3cyhDp1_OwRFpdibfhlSCsQHVcVJrQPBc_dUfLsaoXk_vqTqGSMbCuucwee8nfTKTlaBfU4WkODCqwFEo3NVR7_-uJSjWKVR4foLaMGo4e_LHNpR52KFpQElMTzFPIiCy93mAFN3P7krJ4-npb2ftHMKuecPr0PvE2gcZHGxHDVLVzxlfhVvw"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwh7yrVOTAGqdin7eM3AB4NddGwgjYXL0uhlU42-nMJtT8DcJWGpytyfED7UrfmS1t9lZdxw-Cqo3LHuonO7XGT5z_H-k3cyhDp1_OwRFpdibfhlSCsQHVcVJrQPBc_dUfLsaoXk_vqTqGSMbCuucwee8nfTKTlaBfU4WkODCqwFEo3NVR7_-uJSjWKVR4foLaMGo4e_LHNpR52KFpQElMTzFPIiCy93mAFN3P7krJ4-npb2ftHMKuecPr0PvE2gcZHGxHDVLVzxlfhVvw"
             alt="AoVie Logo"
             className="h-7 w-auto object-contain"
           />
 
           <button
-            onClick={() => alert("Giỏ hàng đang chuẩn bị...")}
+            onClick={() => alert("Giỏ hàng đang được chuẩn bị...")}
             className="hover:opacity-80 transition-opacity active:scale-95 w-10 h-10 flex items-center justify-center"
             type="button"
           >
@@ -101,7 +101,7 @@ export default function HomePage() {
         <section className="px-container-padding py-6">
           <div className="relative overflow-hidden rounded-xl border border-outline-variant h-80 shadow-md">
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYkIYGEqlZt9wpoKCMu1YUUxU25Gx1IRzTwB5oN4fjmkr43vPLNfTlAvwxHZGz3LNMNVE18zF9D73O8mSXUDaOCBNUdfRX8NLsAW_a__qkP2eObn7KbukkWWEp76EvDh9r91hTHWdQtR3OYxmNt9Y5AWgC23dC53mAzTKKNTJaFgPhaVjjGHejmuXfiDBLBcbvVyhYVwYT7kQZj6YKZfc4DL5jQTApv6QRj_W4K4ZSwScjoppNyk-UYYbZ1pkBPLprynqX8_4hw7P6"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYkIYGEquZt9wpoKCMu1YUUxU25Gx1IRzTwB5oN4fmjkr43vPLNfTlAvwxHZGz3LNMNYE18zF9D73O8mSXUDaOCBNUdfRX8NLsAW_a__qkP2eObn7KubukWWEp76EdDh9r91hTHWdQtR3OYxmNt9Y5AWgC23dC53mAzTKkNTJaFgPhaVjjGHejmuXfiDBLBcbvVyhYVwYT7kQZj6YKZfc4DL5jQTApv6QRj_W4K4ZSwScjoppNyk-UYYYbZ1pkBLPrynqX8_4hw7P6"
               alt="Saigon Tailoring Shop"
               className="w-full h-full object-cover brightness-[0.75]"
             />
@@ -113,8 +113,7 @@ export default function HomePage() {
                 Bộ Sưu Tập Di Sản Đô Thị
               </h2>
               <p className="font-body-md text-primary-fixed-dim mt-1.5 max-w-md text-xs leading-relaxed opacity-90">
-                Lấy cảm hứng từ góc tiệm may Saigon cổ kính dưới vệt nắng chiếu nghiêng ấm áp, kiến tạo chất liệu
-                đương đại mộc mạc và sang trọng.
+                Lấy cảm hứng từ góc tiệm may Saigon cổ kính dưới vệt nắng chiếu nghiêng ấm áp, kiến tạo chất liệu đương đại mộc mạc và sang trọng.
               </p>
               <button
                 onClick={() => navigate("/bo-loc")}
@@ -146,12 +145,11 @@ export default function HomePage() {
                     alert("Các sản phẩm của danh mục này đang chuẩn bị ra mắt!");
                   }
                 }}
-                className={[
-                  "whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md uppercase font-semibold transition-all duration-200 active:scale-95",
+                className={`whitespace-nowrap px-4 py-2 rounded-full font-label-md text-label-md uppercase font-semibold transition-all duration-200 active:scale-95 ${
                   isActive
                     ? "bg-secondary text-white shadow-sm"
-                    : "border border-outline-variant text-on-surface-variant hover:bg-surface-container",
-                ].join(" ")}
+                    : "border border-outline-variant text-on-surface-variant hover:bg-surface-container"
+                }`}
               >
                 {cat.label}
               </button>
@@ -162,7 +160,7 @@ export default function HomePage() {
         {/* Product Catalog Grid */}
         <section className="px-container-padding pb-6">
           <div className="flex justify-between items-end mb-6">
-            <h3 className="font-headline-md text-headline-md text-primary font-bold">Sản phẩm nổi bật</h3>
+            <h3 className="font-headline-md text-primary font-bold">Sản phẩm nổi bật</h3>
             <button
               onClick={() => navigate("/bo-loc")}
               className="text-label-md font-label-md text-secondary border-b border-secondary font-bold tracking-wider hover:text-secondary/80"
@@ -176,8 +174,13 @@ export default function HomePage() {
               <div
                 key={p.id}
                 onClick={() => {
-                  // Direct checkout simulation
-                  if (window.confirm(`Bạn muốn chọn mua nhanh sản phẩm "${p.title}" với giá ${formatVND(p.price)}?`)) {
+                  if (
+                    window.confirm(
+                      `Bạn muốn chọn mua nhanh sản phẩm "${p.title}" với giá ${formatVND(
+                        p.price
+                      )}?`
+                    )
+                  ) {
                     navigate("/thanh-toan");
                   }
                 }}
@@ -190,16 +193,16 @@ export default function HomePage() {
                     src={p.image}
                   />
                   {p.tag && (
-                    <span className="absolute top-2 left-2 bg-secondary text-on-secondary px-2.5 py-1 text-[10px] font-label-md uppercase tracking-wider font-bold rounded-xs">
+                    <span className="absolute top-2 left-2 bg-secondary text-white px-2.5 py-1 text-[10px] font-label-md uppercase tracking-wider font-bold rounded-xs">
                       {p.tag}
                     </span>
                   )}
                 </div>
                 <div className="py-3">
-                  <h4 className="font-body-md text-body-md font-bold text-primary mb-1 line-clamp-1 group-hover:text-secondary transition-colors">
+                  <h4 className="font-body-md font-bold text-primary mb-1 line-clamp-1 group-hover:text-secondary transition-colors">
                     {p.title}
                   </h4>
-                  <p className="font-body-md text-body-md text-secondary font-bold">{formatVND(p.price)}</p>
+                  <p className="font-body-md text-secondary font-bold">{formatVND(p.price)}</p>
                 </div>
               </div>
             ))}
@@ -229,44 +232,48 @@ export default function HomePage() {
       </main>
 
       {/* Bottom NavBar */}
-      <nav className="fixed bottom-0 left-0 w-full flex justify-around items-center py-2 px-gutter bg-surface border-t border-outline-variant z-50 shrink-0 select-none">
+      <nav className="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center h-16 px-gutter pb-safe bg-surface border-t border-outline-variant">
         <button
           onClick={() => handleBottomNav("/trang-chu")}
           className="flex flex-col items-center justify-center text-secondary relative active:scale-95 w-16"
         >
-          <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>
+          <span
+            className="material-symbols-outlined"
+            style={{ fontVariationSettings: "'FILL' 1" }}
+          >
             home
           </span>
-          <span className="font-label-md text-[10px] uppercase font-bold">Trang chủ</span>
-          <div className="absolute -bottom-1 w-1.5 h-1.5 bg-secondary rounded-full" />
+          <span className="font-label-md text-[10px] mt-1 font-bold">Trang chủ</span>
+          <div className="absolute -bottom-1 w-1 h-1 bg-secondary rounded-full"></div>
         </button>
         <button
           onClick={() => handleBottomNav("/bo-loc")}
-          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 w-16"
+          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-secondary transition-colors active:scale-95 w-16"
         >
           <span className="material-symbols-outlined">grid_view</span>
-          <span className="font-label-md text-[10px] uppercase font-semibold">Danh mục</span>
+          <span className="font-label-md text-[10px] mt-1 font-semibold">Danh mục</span>
         </button>
+        {/* Link directly to orders page /don-hang */}
         <button
-          onClick={() => handleBottomNav("/dat-hang-thanh-cong")}
-          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 w-16"
+          onClick={() => handleBottomNav("/don-hang")}
+          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-secondary transition-colors active:scale-95 w-16"
         >
           <span className="material-symbols-outlined">receipt_long</span>
-          <span className="font-label-md text-[10px] uppercase font-semibold">Đơn hàng</span>
+          <span className="font-label-md text-[10px] mt-1 font-semibold">Đơn hàng</span>
         </button>
         <button
-          onClick={() => handleBottomNav("/loi")}
-          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 w-16"
+          onClick={() => handleBottomNav("/thong-bao")}
+          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-secondary transition-colors active:scale-95 w-16"
         >
           <span className="material-symbols-outlined">notifications</span>
-          <span className="font-label-md text-[10px] uppercase font-semibold">Thông báo</span>
+          <span className="font-label-md text-[10px] mt-1 font-semibold">Thông báo</span>
         </button>
         <button
           onClick={() => handleBottomNav("/toi")}
-          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 w-16"
+          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-secondary transition-colors active:scale-95 w-16"
         >
           <span className="material-symbols-outlined">person</span>
-          <span className="font-label-md text-[10px] uppercase font-semibold">Tôi</span>
+          <span className="font-label-md text-[10px] mt-1 font-semibold">Tôi</span>
         </button>
       </nav>
     </div>

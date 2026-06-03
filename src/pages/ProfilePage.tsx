@@ -23,12 +23,12 @@ export default function ProfilePage() {
         <div className="flex justify-between items-center px-container-padding h-16 w-full max-w-screen-xl mx-auto">
           <button
             className="hover:opacity-80 transition-opacity active:scale-95 flex items-center justify-center w-10 h-10"
-            onClick={() => navigate(-1)}
             type="button"
+            onClick={() => navigate(-1)}
           >
             <span className="material-symbols-outlined text-primary">arrow_back</span>
           </button>
-          <h1 className="font-headline-lg-mobile text-primary uppercase text-headline-md tracking-wider whitespace-nowrap">
+          <h1 className="font-headline-lg-mobile text-primary uppercase text-headline-md tracking-wide whitespace-nowrap">
             Cá nhân
           </h1>
           <button
@@ -42,7 +42,7 @@ export default function ProfilePage() {
       </header>
 
       {/* Main Content Area */}
-      <main className="flex-grow pt-20 pb-28 px-container-padding max-w-md mx-auto w-full flex flex-col gap-6">
+      <main className="flex-grow pt-20 pb-28 px-container-padding max-w-md mx-auto w-full flex flex-col gap-6 relative z-10">
         {/* User Profile Header Card */}
         <section className="bg-surface border border-outline-variant p-5 rounded-lg flex items-center gap-4 mt-2 shadow-xs">
           {/* Avatar frame */}
@@ -59,11 +59,11 @@ export default function ProfilePage() {
               </span>
             </div>
             <p className="font-label-md text-label-md text-on-surface-variant mt-1">090 123 4567</p>
-            <p className="font-label-md text-label-md text-outline text-[11px]">username@email.com</p>
+            <p className="font-label-md text-label-md text-on-surface-variant text-[11px]">username@email.com</p>
           </div>
         </section>
 
-        {/* Quick Wallet Summary Card (Direct integration to Wallet History!) */}
+        {/* Quick Wallet Summary Card */}
         <section
           onClick={() => navigate("/vi-tien")}
           className="bg-primary text-white p-5 rounded-lg relative overflow-hidden shadow-sm hover:opacity-95 active:scale-[0.99] transition-all cursor-pointer group"
@@ -82,7 +82,7 @@ export default function ProfilePage() {
                 <span className="font-headline-md text-headline-md text-primary-fixed opacity-80">đ</span>
               </div>
             </div>
-            <div className="flex items-center gap-1 bg-white/10 hover:bg-white/20 transition-colors px-3 py-1.5 rounded text-xs uppercase font-bold tracking-wider">
+            <div className="flex items-center gap-1 bg-white/10 hover:bg-white/20 transition-colors px-3 py-1.5 rounded text-xs font-bold tracking-wider uppercase">
               Xem lịch sử
               <span className="material-symbols-outlined text-[14px]">chevron_right</span>
             </div>
@@ -107,15 +107,15 @@ export default function ProfilePage() {
               <span className="material-symbols-outlined text-outline-variant text-[20px]">chevron_right</span>
             </button>
 
-            {/* Order Tracking */}
+            {/* Order Tracking (Point to /don-hang instead of SuccessPage!) */}
             <button
-              onClick={() => navigate("/dat-hang-thanh-cong")}
+              onClick={() => navigate("/don-hang")}
               className="flex items-center justify-between p-4 border-b border-outline-variant/20 hover:bg-surface-container-low transition-colors text-left"
             >
               <div className="flex items-center gap-3">
-                <span className="material-symbols-outlined text-primary text-[22px]">local_shipping</span>
+                <span className="material-symbols-outlined text-primary text-[22px]">receipt_long</span>
                 <span className="font-body-md text-body-md font-bold text-on-surface uppercase tracking-wide text-xs">
-                  Theo dõi đơn hàng
+                  Đơn hàng của tôi
                 </span>
               </div>
               <span className="material-symbols-outlined text-outline-variant text-[20px]">chevron_right</span>
@@ -135,7 +135,7 @@ export default function ProfilePage() {
               <span className="material-symbols-outlined text-outline-variant text-[20px]">chevron_right</span>
             </button>
 
-            {/* Policy Page (Direct integration!) */}
+            {/* Policy Page */}
             <button
               onClick={() => navigate("/chinh-sach")}
               className="flex items-center justify-between p-4 border-b border-outline-variant/20 hover:bg-surface-container-low transition-colors text-left"
@@ -188,51 +188,54 @@ export default function ProfilePage() {
                   Đăng xuất
                 </span>
               </div>
-              <span className="material-symbols-outlined text-error text-[20px] opacity-70">chevron_right</span>
+              <span className="material-symbols-outlined text-error opacity-70 text-[20px]">chevron_right</span>
             </button>
           </div>
         </section>
       </main>
 
       {/* Unified Bottom NavBar */}
-      <nav className="fixed bottom-0 left-0 w-full flex justify-around items-center py-2 px-gutter bg-surface border-t border-outline-variant z-50 shrink-0 select-none">
+      <nav className="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center h-16 px-gutter pb-safe bg-surface border-t border-outline-variant">
         <button
-          onClick={() => handleBottomNav("/hub")}
-          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 w-16"
+          onClick={() => handleBottomNav("/trang-chu")}
+          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-secondary transition-colors active:scale-90 w-16"
         >
           <span className="material-symbols-outlined">home</span>
-          <span className="font-label-md text-[10px] uppercase font-semibold">Trang chủ</span>
+          <span className="font-label-md text-[10px] mt-1 font-sans">Trang chủ</span>
         </button>
         <button
           onClick={() => handleBottomNav("/bo-loc")}
-          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 w-16"
+          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-secondary transition-colors active:scale-90 w-16"
         >
           <span className="material-symbols-outlined">grid_view</span>
-          <span className="font-label-md text-[10px] uppercase font-semibold">Danh mục</span>
+          <span className="font-label-md text-[10px] mt-1 font-sans">Danh mục</span>
         </button>
         <button
-          onClick={() => handleBottomNav("/dat-hang-thanh-cong")}
-          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 w-16"
+          onClick={() => handleBottomNav("/don-hang")}
+          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-secondary transition-colors active:scale-90 w-16"
         >
           <span className="material-symbols-outlined">receipt_long</span>
-          <span className="font-label-md text-[10px] uppercase font-semibold">Đơn hàng</span>
+          <span className="font-label-md text-[10px] mt-1 font-sans">Đơn hàng</span>
         </button>
         <button
           onClick={() => handleBottomNav("/thong-bao")}
-          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-primary transition-colors active:scale-95 w-16"
+          className="flex flex-col items-center justify-center text-on-surface-variant hover:text-secondary transition-colors active:scale-90 w-16"
         >
           <span className="material-symbols-outlined">notifications</span>
-          <span className="font-label-md text-[10px] uppercase font-semibold">Thông báo</span>
+          <span className="font-label-md text-[10px] mt-1 font-sans">Thông báo</span>
         </button>
         <button
           onClick={() => handleBottomNav("/toi")}
-          className="flex flex-col items-center justify-center text-secondary relative active:scale-95 w-16"
+          className="flex flex-col items-center justify-center text-secondary relative active:scale-90 w-16"
         >
-          <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>
+          <span
+            className="material-symbols-outlined"
+            style={{ fontVariationSettings: "'FILL' 1" }}
+          >
             person
           </span>
-          <span className="font-label-md text-[10px] uppercase font-bold">Tôi</span>
-          <div className="absolute -bottom-1 w-1.5 h-1.5 bg-secondary rounded-full" />
+          <span className="font-label-md text-[10px] mt-1 font-sans font-bold">Tôi</span>
+          <div className="absolute -bottom-1 w-1 h-1 bg-secondary rounded-full"></div>
         </button>
       </nav>
     </div>
